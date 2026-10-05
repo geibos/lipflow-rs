@@ -4,8 +4,8 @@
 > original, but dictation in Russian, which is what it was for, isn't accurate enough to use.
 > See [Why we stopped](#why-we-stopped).
 
-Silent dictation by lip reading — the Rust port of [Lipflow](lipflow/README.md) (the Python
-original lives in `lipflow/` and is the reference for every number below). Hold a key, silently
+Silent dictation by lip reading — the Rust port of [Lipflow](https://github.com/amywork777/lipflow) (the Python
+original, included as the `lipflow/` submodule, is the reference for every number below). Hold a key, silently
 mouth what you want to say, let go, and the text appears at your cursor. macOS only for now.
 
 Russian (the default when its model is installed) reads with

@@ -1,0 +1,16 @@
+[package]
+name = "lipflow-llm"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+candle-core = { workspace = true }
+candle-nn = { workspace = true }
+candle-transformers = "0.11.0"
+tokenizers = { version = "0.22.2", default-features = false, features = ["fancy-regex"] }
+
+[features]
+metal = ["candle-core/metal", "candle-nn/metal", "candle-transformers/metal"]
+accelerate = ["candle-core/accelerate", "candle-nn/accelerate", "candle-transformers/accelerate"]

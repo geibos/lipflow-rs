@@ -1,0 +1,3 @@
+[submodule "lipflow"]
+	path = lipflow
+	url = https://github.com/amywork777/lipflow
